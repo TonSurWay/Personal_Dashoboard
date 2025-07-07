@@ -1,6 +1,6 @@
 # 🌟 Personal Productivity Dashboard
 
-A modern, minimal, and responsive personal dashboard that helps you manage your tasks, time, and notes in one place. This project is built using pure HTML, CSS, and JavaScript — no frameworks, no libraries, just clean and efficient code.
+A modern, minimal, personal dashboard that helps you manage your tasks, time, and notes in one place. This project is built using pure HTML, CSS, and JavaScript — no frameworks, no libraries, just clean and efficient code.
 
 > ✅ To-Do List | ⏰ Pomodoro Timer | 📝 Markup Note Editor | 🌗 Dark/Light Theme Switcher
 
