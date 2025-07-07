@@ -43,5 +43,3 @@ A modern, minimal, and responsive personal dashboard that helps you manage your 
 - HTML5 + CSS3 (Flexbox + Grid)
 - Vanilla JavaScript
 - LocalStorage (for storing todos and notes)
-
----
