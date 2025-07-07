@@ -45,4 +45,3 @@ A modern, minimal, and responsive personal dashboard that helps you manage your 
 - LocalStorage (for storing todos and notes)
 
 ---
-
