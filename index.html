@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="favicon" href="assets/img/favicon.jpg" type="image/x-icon">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/transformations.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/animations.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Started of Container Max-width = 1280px -->
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="theme" id="theme">
+                <button type="button" id="light" class="light active">
+                    <i class='bx bx-sun bx-sm bx-tada-hover'></i>
+                </button>
+                <button type="button" id="dark" class="dark">
+                    <i class='bx bx-moon bx-sm bx-tada-hover'></i>
+                </button>
+            </div>
+
+            <div class="time_date">
+                <div class="date-box">
+                    <i class="bx bx-calendar-alt"></i>
+                    <div class="day" id="day"></div>
+                </div>
+                <div class="clock-box">
+                    <i class="bx bx-clock-11"></i>
+                    <div class="clock" id="clock"></div>
+                </div>
+
+            </div>
+        </header>
+        <!-- End of Header -->
+
+        <!-- Started of Section -->
+        <section>
+            <!-- To-Do List -->
+            <div class="todo-container">
+                <h2>To-Do List</h2>
+                <div class="" id="message-area"></div>
+                <div class="input-box">
+                    <input placeholder="Enter your Task" type="text" name="todo" id="todo">
+                    <button type="button" id="add"><i class="bx bx-plus-circle bx-sm"></i>Add</button>
+                </div>
+
+                <div class="list-content-container" id="list-content-container">
+                    <!-- The task will be shown here! -->
+                </div>
+            </div>
+            <!-- End of To-Do List -->
+
+            <!-- Pomodoro -->
+            <div class="pomodoro-container">
+                <h2>Pomodoro Timer</h2>
+                <div id="timer">25:00</div>
+                <div id="buttons" class="buttons">
+                    <button id="start"><i class="bx bx-play-circle bx-sm bx-tada-hover"></i>Start</button>
+                    <button id="pause"><i class="bx bx-pause-circle bx-sm bx-tada-hover"></i>Pause</button>
+                    <button id="reset"><i class="bx bx-refresh-cw bx-sm bx-tada-hover"></i>Reset</button>
+                </div>
+                <p id="status">Focus Time</p>
+            </div>
+            <!-- End of Pomodoro -->
+
+
+            <!-- Markup Notes -->
+            <div class="note-container">
+                <h1>Markup Note</h1>
+                <textarea id="noteInput" placeholder="Type your markup note here..."></textarea>
+                <div class="buttons">
+                    <button onclick="saveNote()"><i class="bx bx-save bx-sm"></i> Save</button>
+                    <button onclick="clearNote()"><i class="bx bx-trash bx-sm"></i> Clear</button>
+                </div>
+                <div class="preview-container">
+                    <h2>Preview</h2>
+                    <div id="preview" class="preview"></div>
+                </div>   
+            </div>
+            <!-- Saved Container -->
+             <div class="saved-container">
+                <h2>Saved Notes</h2>
+                <div id="savedNotes" class="note-list"></div>
+            </div>
+            <!-- End of Markup Notes -->
+        </section>
+        <!-- End of Section -->
+    </div>
+    <!-- End of Container -->
+
+    <!-- try to use for attr in label -->
+    <!-- <input type="file" id="upload" hidden>
+    <label class="upload" for="upload"><i class="bx bx-arrow-from-top-stroke bx-lg"></i> Upload file</label> -->
+
+    <!-- link to JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/darkTheme.js"></script>
+    <script src="assets/js/pomodoro.js"></script>
+    <script src="assets/js/todo.js"></script>
+    <script src="assets/js/note.js"></script>
+</body>
+
+</html>
