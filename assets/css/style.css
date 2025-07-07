@@ -627,16 +627,3 @@ section {
 .fade-out {
     animation: fadeOutSlide 0.3s ease forwards;
 }
-
-/* Testing */
-/* .upload {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-    border: 3px dashed var(--border-line); 
-    width: 400px;
-    height: 200px;
-} */
